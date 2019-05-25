@@ -1,0 +1,1 @@
+export default () => <div> Dang ki cho thue </div>

@@ -1,0 +1,82 @@
+.property-info  {
+  background-color: whitesmoke !important;
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .name {
+
+    }
+  }
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    .code {
+      font-size: bold;
+      color: #35A7D9;
+      size: 20px;
+      text-transform: uppercase;
+    }
+    .status {
+      
+      color: green;
+    }
+  }
+  .middle {
+    display: flex;
+    flex-direction: column;
+    .icon {
+      width: 30px;
+      color: #35A7D9;
+      // background-color: gray;
+    }con {
+      width: 30px;
+      color: #35A7D9;
+    }
+    .price {
+      // display: none;
+      display: flex;
+      flex-direction: column;
+      .price-total {
+        .price-sale , .price-rent {
+          font-size: 22px;
+          font-weight: 400;
+        }
+        .vnd {
+  
+        }
+      }
+      .price-part {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    .direction {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      .info-1, .info-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    }
+  }
+  .buttom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .ant-btn {
+      margin: 0 5px;
+    }
+  }
+}

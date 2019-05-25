@@ -1,0 +1,20 @@
+body {
+}
+#__next {
+  display: flex;
+}
+div[class^='jsx-']{
+  // width: 100%;
+}
+.ant-layout {
+  diplay: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.ant-layout-header {
+  // background-color: #f0a52b !important;
+}
+.ant-layout-content {
+  padding: 10px 20px;
+}
